@@ -16,15 +16,15 @@ build:
 
 requirements:
   host:
+    - flit-core
     - pip
-    - python >=3.6
-    - reentry
+    - python >=3.8
   run:
-    - aiida-core >=1.1.0,<2.0.0
-    - aiida-pseudo >=0.5.0
-    - python >=3.6
-    - six
-    - voluptuous
+    - aiida-core.atomic_tools >=1.6.3,<3.0.0
+    - abipy >=0.8.0
+    - importlib_resources
+    - packaging
+    - python >=3.8
 
 test:
   imports:
