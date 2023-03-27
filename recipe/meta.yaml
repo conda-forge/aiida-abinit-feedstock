@@ -38,7 +38,7 @@ about:
   home: https://github.com/sponce24/aiida-abinit
   summary: The AiiDA plugin for ABINIT.
   license: MIT
-  license_file: LICENSE
+  license_file: LICENSE.txt
 
 extra:
   recipe-maintainers:
