@@ -8,13 +8,13 @@ package:
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/aiida-abinit-{{ version }}.tar.gz
   sha256: 1af665b6bc5288ee9d85f2a2b1c91dd4a13aaafc1bf057a661a4b35e3d5725e2
+  patches:
+  - pyproject.patch
 
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
   number: 0
-  patches:
-  - pyproject.patch
 
 requirements:
   host:
