@@ -23,6 +23,7 @@ requirements:
     - python >=3.8
   run:
     - aiida-core.atomic_tools >=1.6.3,<3.0.0
+    - aiida-pseudo >=0.6.1,<2.0.0
     - abipy >=0.8.0
     - importlib_resources
     - packaging
